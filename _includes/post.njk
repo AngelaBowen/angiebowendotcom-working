@@ -1,0 +1,23 @@
+---
+layout: layout.njk
+title: "{{ title }}"
+date: "{{ date }}"
+lastUpdated: "{{ lastUpdated }}"
+status: "{{ status }}"
+---
+
+<main class="h-entry">
+  <h1 class="p-name">{{ title }}</h1>
+  <div class="post-meta">
+    <span><strong>Date posted:</strong> <time class="dt-published" datetime="{{ date | dateToYMD }}">{{ date | dateToYMD }}</time></span>
+    {% if lastUpdated %}
+      <span><strong>Last updated:</strong> <time class="dt-updated" datetime="{{ lastUpdated | dateToYMD }}">{{ lastUpdated | dateToYMD }}</time></span>
+    {% endif %}
+    {% if status %}
+      <span><strong>Status:</strong> {{ status }}</span>
+    {% endif %}
+  </div>
+  <div class="e-content">
+    {{ content | safe }}
+  </div>
+</main>

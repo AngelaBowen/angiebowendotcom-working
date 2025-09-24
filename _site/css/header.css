@@ -1,0 +1,30 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem 0;
+	font-size: 0.8rem;
+	max-width: 800px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin-right: auto;
+}
+
+.nav-container {
+	margin-left: auto;
+}
+
+.nav-menu {
+	display: flex;
+	gap: 1.5rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-menu li {
+	display: inline-block;
+}

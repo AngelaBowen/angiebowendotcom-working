@@ -1,0 +1,186 @@
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2rem;
+	margin: 2rem 0;
+}
+
+.link-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	min-height: 320px;
+	max-width: 100%;
+	background: #fff;
+	border-radius: 1.2rem;
+	box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+	padding: 2rem 1.5rem;
+	box-sizing: border-box;
+	transition: box-shadow 0.2s;
+}
+
+.link-card:hover {
+	box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+}
+
+.card-title {
+	font-size: 1.3rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.card-button-container {
+	background: #fff;
+	border: 1px solid var(--pink-dark);
+	border-radius: 2rem;
+	padding: 0.7rem 2rem;
+	display: block;
+	transition: background 0.2s, color 0.2s;
+	margin-top: auto;
+	margin-bottom: 0;
+	align-self: center;
+}
+
+.card-button-container:hover {
+	background: var(--pink);
+}
+
+.card-header {
+	background: var(--pink);
+	border-top-left-radius: 1.2rem;
+	border-top-right-radius: 1.2rem;
+	border-bottom: 4px solid var(--pink-dark);
+	margin: -2rem -1.5rem 0 -1.5rem;
+	width: calc(100% + 3rem);
+	box-sizing: border-box;
+		color: var(--pink-dark);
+}
+
+.card-header a:hover,
+.card-button-container a:hover {
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.lavcard-button-container {
+	background: #fff;
+	border: 1px solid var(--lav-dark);
+	border-radius: 2rem;
+	padding: 0.7rem 2rem;
+	display: block;
+	transition: background 0.2s;
+	margin-top: auto;
+	margin-bottom: 0;
+	align-self: center;
+}
+
+.lavcard-button-container:hover {
+	background: var(--lav);
+}
+
+.lavcard-header {
+	background: var(--lav);
+	border-top-left-radius: 1.2rem;
+	border-top-right-radius: 1.2rem;
+	border-bottom: 4px solid var(--lav-dark);
+	margin: -2rem -1.5rem 0 -1.5rem;
+	width: calc(100% + 3rem);
+	box-sizing: border-box;
+		color: var(--lav-dark);
+}
+
+.lavcard-header {
+	background: var(--lav);
+	border-top-left-radius: 1.2rem;
+	border-top-right-radius: 1.2rem;
+	border-bottom: 4px solid var(--lav-dark);
+	margin: -2rem -1.5rem 0 -1.5rem;
+	width: calc(100% + 3rem);
+	box-sizing: border-box;
+}
+
+.lavcard-button-container {
+	background: #fff;
+	border: 2px solid var(--lav-dark);
+	border-radius: 2rem;
+	padding: 0.7rem 2rem;
+	display: block;
+	transition: background 0.2s, color 0.2s;
+	margin-top: auto;
+	margin-bottom: 0;
+	align-self: center;
+}
+
+.lavcard-button-container:hover {
+	background: var(--lav);
+}
+
+.lavcard-header a,
+.lavcard-button-container a {
+	color: var(--lav-dark);
+}
+
+.lavcard-header a:hover,
+.lavcard-button-container a:hover {
+	color: var(--lav-dark);
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.newscard {
+	min-height: 320px;
+	max-width: 100%;
+	background: #fff;
+	border-radius: 1.2rem;
+	box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+	padding: 2rem 1.5rem;
+	box-sizing: border-box;
+	transition: box-shadow 0.2s;
+    margin-top: 2.5rem;
+}
+
+.newscard:hover {
+	box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+}
+
+.newscard-header {
+	background: var(--blue);
+	border-top-left-radius: 1.2rem;
+	border-top-right-radius: 1.2rem;
+	border-bottom: 4px solid var(--blue-dark);
+	padding: 1.2rem 1.5rem 1rem 1.5rem;
+	margin: -2rem -1.5rem 0 -1.5rem;
+	width: calc(100% + 3rem);
+	box-sizing: border-box;
+}
+
+.newscard-title {
+	font-size: 1.3rem;
+	font-weight: 600;
+	text-align: center;
+	color: var(--blue-dark);
+	margin: 0px;
+}
+
+.newscard-content {
+	text-align: center;
+}
+
+.newscard-button {
+	margin-top: 1.2rem;
+	padding: 0.7rem 2rem;
+	font-size: 1rem;
+	border-radius: 2rem;
+	background: #fff;
+	color: var(--blue-dark);
+	border: 2px solid var(--blue-dark);
+	cursor: pointer;
+	font-weight: 600;
+	transition: background 0.2s, color 0.2s;
+}
+
+.newscard-button:hover {
+	background: var(--blue);
+}

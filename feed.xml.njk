@@ -1,0 +1,22 @@
+---
+permalink: feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Angie Bowen's Digital Garden</title>
+    <link>https://angiebowen.com/</link>
+    <description>Notes on generative learning, creativity, and PKM</description>
+    <lastBuildDate>{{ collections.posts | getNewestCollectionItemDate | dateToRfc822 }}</lastBuildDate>
+    {% for post in collections.posts | reverse %}
+      <item>
+        <title>{{ post.data.title }}</title>
+        <link>{{ post.url | url }}</link>
+        <description>{{ post.templateContent | safe }}</description>
+        <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+        <guid>{{ post.url | url }}</guid>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

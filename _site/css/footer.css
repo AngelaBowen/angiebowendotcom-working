@@ -1,0 +1,40 @@
+.footer {
+	width: 250px;
+	font-size: 0.6rem;
+	font-weight: 400;
+	margin: 40px auto;
+	color: #666;
+	text-align: center;
+}
+
+.footer a {
+	font-size: 0.6rem;
+	font-weight: 400;
+	margin: 10px auto;
+	color: #666;
+}
+
+.footer a:hover {
+	color: #cc004e;
+	text-decoration: none;
+}
+
+.footer-nav ul {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 250px;
+	justify-content: center;
+}
+
+.footer-nav li {
+	display: inline-block;
+}
+
+.footer-menu, .footer-permissions, .footer-email {
+	display: block;
+	margin-bottom: 0.3rem;
+}

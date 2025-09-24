@@ -1,0 +1,64 @@
+<div class="card-grid">
+	<div class="pink-card"><a href="https://angiebowen.com/capstone/" style="text-decoration: none; color: inherit;">
+		<div class="card-header">
+			<h3 class="card-title">Capstone Project</h3>
+		</div>
+	</a>
+		<div class="card-content">
+			<p>For my master's capstone project, I'm developing a 6-week course teaching creative thinking to first-year university students. I'm building my project in public and sharing the process here.</p>
+		</div>
+		<div class="card-button-container"><a href="https://angiebowen.com/capstone/" class="card-button">Learn More</a></div>
+	</div>
+	<div class="pink-card"><a href="https://angiebowen.com/experiment-01/" style="text-decoration: none; color: inherit;">
+		<div class="card-header">
+			<h3 class="card-title">Personal Experiments</h3>
+		</div>
+	</a>
+		<div class="card-content">
+			<p>Because a 2-year capstone often moves slowly, I also run n=1 trials on thinking, learning, and creativity to see what actually works in practice. My first experiment is currently in progress.</p>
+		</div>
+		<div class="card-button-container"><a href="https://angiebowen.com/experiment-01/" class="card-button">View Experiments</a></div>
+	</div>
+	<div class="pink-card">
+		<div class="card-header">
+			<h3 class="card-title">Research Synthesis</h3>
+		</div>
+		<div class="card-content">
+			<p>As I curate research for my capstone, and my own personal development, I'll share insights on creativity and learning from cognitive science, psychology, and communication.</p>
+		</div>
+		<div class="card-button-container">Coming Soon</div>
+	</div>
+	<div class="pink-card">
+		<div class="card-header">
+			<h3 class="card-title">Creative Application</h3>
+		</div>
+		<div class="card-content">
+			<p>I'll be sharing tips and techniques from my personal mind garden, where I practice the generative notemaking method that drives all my work. It is one of the most profound creative thinking tools I've ever used.</p>
+		</div>
+		<div class="card-button-container">Coming Soon</div>
+	</div>
+	<div class="blue-card"><a href="https://angiebowen.com/create-primer/" style="text-decoration: none; color: inherit;">
+		<div class="card-header">
+			<h3 class="card-title">The CREATE Primer</h3>
+		</div>
+	</a>
+		<div class="card-content">
+			<p>A 15-minute quick-start that goes through simplified versions of all six steps of my CREATE framework for creative thinking (Curate, Reflect, Elaborate, Associate, Transform, Express).</p>
+		</div>
+		<div class="card-button-container"><a href="https://angiebowen.com/create-primer/" class="card-button">Get Started</a></div>
+	</div>
+	<div class="blue-card"><a href="https://angiebowen.com/experiment-01/" style="text-decoration: none; color: inherit;">
+		<div class="card-header">
+			<h3 class="card-title">Current Personal Experiment</h3>
+		</div>
+	</a>
+		<div class="card-content">
+			<p>Personal (n=1) trials on creative thinking practices. Protocols, tools, and weekly lab notes.</p>
+		</div>
+		<div class="card-button-container"><a href="https://angiebowen.com/experiment-01/" class="card-button">View Lab Notes</a></div>
+	</div>
+	<div class="blue-card"><a href="https://growyourmindgarden.gumroad.com/l/mind-garden-kit" style="text-decoration: none; color: inherit;">
+		<div class="card-header">
+			<h3 class="card-title">Mind Garden Starter Kit</h3>
+		</div>
+	</a>
