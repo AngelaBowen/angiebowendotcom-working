@@ -4,7 +4,7 @@ layout: page.njk
 permalink: /about/
 date: 2025-09-01
 lastUpdated: 2025-09-22
-status: evergreen
+status: <span class="status-perennial">Perennial</span>
 ---
 
 The year is 1999, and I'm happily clicking away on a behemoth of a beige box desktop computer. I'm carefully linking HTML pages together, forming a complex and intricate choose-your-own-adventure story. Click here to go deeper into the woods. Click here to rest in the abandoned cabin. Each choice leads to another branching path through my hypertext narrative labyrinth.

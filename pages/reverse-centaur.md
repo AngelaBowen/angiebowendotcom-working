@@ -1,10 +1,10 @@
 ---
-title: Reverse-Centaur
-layout: post.njk
-permalink: /posts/reverse-centaur/
+title: A Mental Model for AI Use
+layout: page.njk
+permalink: /reverse-centaur/
 date: 2025-09-22
 lastUpdated: 2025-09-22
-status: growing
+status: <span class="status-growing">Growing</span>
 ---
 
 I recently spoke with my potential advisor, who said she would like to hear my views on AI in the classroom when we meet next semester.

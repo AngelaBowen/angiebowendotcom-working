@@ -20,7 +20,10 @@
   <body>
     {% include "header.html" %}
     <main>
-      {{ content | safe }}
+
+  {% block content %}{% endblock %}
+
+
 
       {% if webmentions and webmentions.children.length > 0 %}
         <section id="webmentions" class="webmentions">

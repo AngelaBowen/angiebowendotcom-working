@@ -13,19 +13,27 @@
 /* Font Face Declarations */
 @font-face {
 	font-family: 'Playfair Display';
-	src: url('/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf') format('truetype');
+src: url('/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf') format('truetype');
 	font-weight: 400;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Fontello';
+	src: url('/fonts/Fontello/fontello.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 @font-face {
 	font-family: 'Playfair Display';
-	src: url('/fonts/Playfair_Display/PlayfairDisplay-SemiBold.ttf') format('truetype');
+src: url('/fonts/Playfair_Display/PlayfairDisplay-SemiBold.ttf') format('truetype');
 	font-weight: 600;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Playfair Display';
-	src: url('/fonts/Playfair_Display/PlayfairDisplay-Italic.ttf') format('truetype');
+src: url('/fonts/Playfair_Display/PlayfairDisplay-Italic.ttf') format('truetype');
 	font-weight: 400;
 	font-style: italic;
 }
@@ -60,6 +68,8 @@
 	font-style: normal;
 }
 
+
+
 /* Global Styles */
 
 html {
@@ -72,7 +82,8 @@ body {
 	font-weight: 400;
 	background: #fffdf9;
 	color: #222;
-	line-height: 1.6;
+	line-height: 2rem;
+	letter-spacing: .5px;
 }
 
  a {
@@ -104,8 +115,16 @@ a:hover {
 	font-weight: 700;
 }
 
+a[href^="http"]:not([href*="angiebowen.com"])::after {
+	content: '\2197';
+	font-family: 'Playfair Display', 'Times New Roman', Times, Georgia, serif;
+	font-weight: 100;
+	font-size: 1.2rem;
+	text-decoration: none !important;
+}
+
 ul {
-	padding-left: 1.5em;
+  padding-left: 1.5em;
 }
 
 .container {
@@ -120,6 +139,7 @@ h1 {
 	font-weight: 400;
 	font-style: normal;
 	line-height: 1.3;
+	margin-bottom: 0px;
 }
 
 h2, h3 {
@@ -134,11 +154,13 @@ h4, h5, h6 {
 }
 
 .home-lead-h1 {
-	margin-bottom: 0px;
+	margin-bottom: 10px;
+	margin-top: 50px;
 }
 
 .main-lead-h2 {
 	margin: 0px;
+	line-height: 2.5rem
 }
 
 .quote-container {
@@ -149,6 +171,7 @@ h4, h5, h6 {
 	padding: 20px;
 	border-top: #222 dashed 1px;
 	margin: 50px 30px 50px 30px;
+	line-height: 2.5rem;
 }
 
 .quote-author {
@@ -171,10 +194,67 @@ code.comment, pre.comment {
 	font-family: 'Be Vietnam Pro', sans-serif;
 }
 
+.footnote-backref {
+	text-decoration: none;
+	margin-left: 0.2rem;
+	font-size: 1.5rem;
+	font-family: 'Playfair Display', 'Times New Roman', Times, Georgia, serif;
+}
+
 .footnotes-footer li {
 	margin-bottom: 1rem;
 }
 
 .footnote-numbers {
 	font-size: 0.8rem;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  color: var(--pink-dark)
+}
+
+.theme-toggle::before {
+  content: "☀";
+}
+[data-theme="dark"] .theme-toggle::before {
+  content: "☽";
+}
+
+.status-seed::before { content: "○ "; }
+.status-growing::before { content: "◐ "; }
+.status-evergreen::before { content: "▲ "; }
+.status-perennial::before { content: "✿ "; }
+
+.caption, .meta, .date {
+	font-weight: 400;
+	font-size: 0.85rem;
+}
+
+.post-meta {
+	font-size: 0.8rem;
+	margin-bottom: 40px;
+	color: #555;
+}
+
+.leaf-list {
+	list-style: none;
+	padding-left: 1.5em;
+}
+.leaf-list li {
+	position: relative;
+	padding-left: 1.2em;
+	text-indent: -1.2em;
+}
+.leaf-list li::before {
+	content: "❧ ";
+	position: absolute;
+	left: 0;
+	top: 0;
 }

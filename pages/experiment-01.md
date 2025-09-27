@@ -1,10 +1,10 @@
 ---
-title: "Experiment 01: Consume Higher Quality Content"
-layout: post.njk
+title: Experiment 01 - Consume Higher Quality Content
+layout: page.njk
 date: 2025-09-13
 lastUpdated: 2025-09-22
-status: Completed
-permalink: /posts/experiment-01/
+status: '<span class="status-completed">Completed</span>'
+permalink: /experiment-01/
 ---
 
 Start Date: Aug 18, 2025  

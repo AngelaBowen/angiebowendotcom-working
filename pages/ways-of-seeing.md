@@ -1,10 +1,10 @@
 ---
 title: Ways of Seeing
-layout: post.njk
-permalink: /posts/ways-of-seeing/
+layout: page.njk
+permalink: /ways-of-seeing/
 date: 2025-09-22
 lastUpdated: 2025-09-22
-status: seed
+status: <span class="status-seed">Seed</span>
 ---
 
 [Tom Critchlow argues that art is the best place to learn sensemaking and observation skills](https://tomcritchlow.com/2018/10/29/ways-of-seeing/). He applies it to understanding the culture of an organization you’re consulting for, but it perfectly applies to note-making as well.

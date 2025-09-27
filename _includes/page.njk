@@ -1,25 +1,21 @@
----
-layout: layout.njk
-title: "{{ title }}"
-date: "{{ date }}"
-lastUpdated: "{{ lastUpdated }}"
-status: "{{ status }}"
----
+{% extends "layout.njk" %}
 
+{% block content %}
 <main class="h-entry">
   <h1 class="p-name">{{ title }}</h1>
   <div class="post-meta">
     {% if date %}
-      <span><strong>Date posted:</strong> <time class="dt-published" datetime="{{ date | dateToYMD }}">{{ date | dateToYMD }}</time></span>
+      <span>{{ status | safe }}</span>
     {% endif %}
     {% if lastUpdated %}
-      <span><strong>Last updated:</strong> <time class="dt-updated" datetime="{{ lastUpdated | dateToYMD }}">{{ lastUpdated | dateToYMD }}</time></span>
+      <span>planted on <time class="dt-published" datetime="{{ date | dateToYMD }}">{{ date | date('MMM dd, yyyy') }}</time>,</span>
     {% endif %}
-    {% if status %}
-      <span><strong>Status:</strong> {{ status }}</span>
+    {% if lastUpdated %}
+      <span>and last tended to on <time class="dt-updated" datetime="{{ lastUpdated | dateToYMD }}">{{ lastUpdated | date('MMM dd, yyyy') }}</time>.</span>
     {% endif %}
   </div>
   <div class="e-content">
     {{ content | safe }}
   </div>
 </main>
+{% endblock %}

@@ -4,7 +4,7 @@ layout: page.njk
 permalink: /now/
 date: 2025-09-01
 lastUpdated: 2025-09-22
-status: perennial
+status: <span class="status-perennial">Perennial</span>
 ---
 
 What I'm focused on right <a href="https://nownownow.com/about">now</a>. Updated monthly(ish).

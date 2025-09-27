@@ -1,10 +1,10 @@
 ---
 title: Embracing Uncertainty
-layout: post.njk
-permalink: /posts/uncertainty/
+layout: page.njk
+permalink: /uncertainty/
 date: 2025-09-22
 lastUpdated: 2025-09-22
-status: seed
+status: <span class="status-seed">Seed</span>
 categories:
     - Capstone
     - Creativity

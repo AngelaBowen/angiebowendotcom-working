@@ -1,7 +1,6 @@
 .navbar {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 	padding: 0.5rem 0;
 	font-size: 0.8rem;
 	max-width: 800px;
@@ -10,11 +9,16 @@
 .logo {
 	display: flex;
 	align-items: center;
-	margin-right: auto;
+	font-size: 4rem;
+	font-family: 'Playfair Display', 'Times New Roman', Times, Georgia, serif;
+}
+
+.logo {
+	text-decoration: none !important;
 }
 
 .nav-container {
-	margin-left: auto;
+	margin-left: 50px;
 }
 
 .nav-menu {

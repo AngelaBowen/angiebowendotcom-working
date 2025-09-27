@@ -16,7 +16,6 @@ I'll be sharing tips and techniques from my personal mind garden, where I practi
 
 ## To implement
 - Bidirectional link popups
-- Collapsable sections
 - Wiki like table of contents
 - Link icons
 - Info boxes & popup info boxes
