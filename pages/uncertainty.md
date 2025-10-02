@@ -5,9 +5,10 @@ permalink: /uncertainty/
 date: 2025-09-22
 lastUpdated: 2025-09-22
 status: <span class="status-seed">Seed</span>
-categories:
-    - Capstone
-    - Creativity
+tags: notes
+categories: [Capstone, Creativity]
+author: Angie Bowen
+excerpt: How do we know when to embrace uncertainty and when to seek more information?
 ---
 
 Our brains want to move away from uncertainty, however uncertainty can be a vital ingredient for creativity. So the question becomes, how do we determine if the uncertainty we're feeling is the productive kind we should lean into or the kind that's actually signaling the need for more information.

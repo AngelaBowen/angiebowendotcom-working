@@ -1,0 +1,18 @@
+---
+title: Current Notes
+layout: page.njk
+permalink: /notes/
+date: 2025-09-22
+lastUpdated: 2025-09-22
+author: Angie Bowen
+excerpt: A list of my current notes in reverse chronological order.
+---
+
+<p>My tiny garden is just getting started. <a href="/rss.xml">Subscribe to the RSS feed</a> to stay updated.</p>
+<ul class="notes-list">
+  {% for note in collections.notes | reverse %}
+	<li class="note-item">
+	  <a class="note-link" href="{{ note.url }}">{{ note.data.title }}</a>
+	</li>
+  {% endfor %}
+</ul>

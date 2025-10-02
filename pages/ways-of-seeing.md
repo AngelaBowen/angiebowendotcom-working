@@ -5,6 +5,10 @@ permalink: /ways-of-seeing/
 date: 2025-09-22
 lastUpdated: 2025-09-22
 status: <span class="status-seed">Seed</span>
+tags: notes
+author: Angie Bowen
+keywords: [Sensemaking, Note-Making]
+excerpt: "Critically examine what’s in front of you by keeping the context in frame."
 ---
 
 [Tom Critchlow argues that art is the best place to learn sensemaking and observation skills](https://tomcritchlow.com/2018/10/29/ways-of-seeing/). He applies it to understanding the culture of an organization you’re consulting for, but it perfectly applies to note-making as well.

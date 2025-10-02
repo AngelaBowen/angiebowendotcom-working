@@ -5,6 +5,8 @@ permalink: /now/
 date: 2025-09-01
 lastUpdated: 2025-09-22
 status: <span class="status-perennial">Perennial</span>
+tags: about
+author: Angie Bowen
 ---
 
 What I'm focused on right <a href="https://nownownow.com/about">now</a>. Updated monthly(ish).

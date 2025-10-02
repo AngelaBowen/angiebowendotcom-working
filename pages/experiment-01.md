@@ -5,10 +5,13 @@ date: 2025-09-13
 lastUpdated: 2025-09-22
 status: '<span class="status-completed">Completed</span>'
 permalink: /experiment-01/
+tags: notes
+excerpt: My first n=1 experiment on improving my information diet by replacing low-quality, unstructured input with high-quality, curated content.
+author: Angie Bowen
+keywords: [Experiment, Note-Making]
 ---
 
-Start Date: Aug 18, 2025  
-End Date: Sept 13, 2025
+Start Date: Aug 18, 2025 | End Date: Sept 13, 2025
 
 ## Hypothesis
 What happens when I replace unstructured, low-quality input (mostly social media) with a structured, high-quality information diet (newsletters, academic papers, articles, books)?

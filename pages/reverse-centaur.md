@@ -5,6 +5,10 @@ permalink: /reverse-centaur/
 date: 2025-09-22
 lastUpdated: 2025-09-22
 status: <span class="status-growing">Growing</span>
+tags: notes
+author: Angie Bowen
+categories: [AI, Generative Note-Making, Mental Models]
+excerpt: Exploring the concept of reverse-centaurs as a mental model for AI use in in the classroom.
 ---
 
 I recently spoke with my potential advisor, who said she would like to hear my views on AI in the classroom when we meet next semester.

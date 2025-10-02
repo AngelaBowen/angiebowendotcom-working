@@ -62,3 +62,14 @@
 			<h3 class="card-title">Mind Garden Starter Kit</h3>
 		</div>
 	</a>
+
+
+
+	<div class="footnotes-footer">
+  <h2>Footnotes</h2>
+  <ol>
+    <li id="fn-generative-learning"><strong>generative learning</strong>: A theory of learning that says we learn best when we actively engage with new information through connecting it with existing knowledge. <a href="#ref-generative-learning" class="footnote-backref" aria-label="Back to content">&#8593;</a></li>
+    <li id="fn-mind-garden"><strong>mind garden</strong>: A creative personal knowledge management (PKM) system designed for generating and growing new ideas over time. <a href="#ref-mind-garden" class="footnote-backref" aria-label="Back to content">&#8593;</a></li>
+    <li id="fn-digital-gardens"><strong>digital gardens</strong>: The portion of a person's mind garden they choose to make public. <a href="#ref-digital-gardens" class="footnote-backref" aria-label="Back to content">&#8593;</a></li>
+  </ol>
+</div>

@@ -14,6 +14,10 @@
 	color: #666;
 }
 
+.footer-nav a:after {
+		content: none !important;
+}
+
 .footer a:hover {
 	color: #cc004e;
 	text-decoration: none;
