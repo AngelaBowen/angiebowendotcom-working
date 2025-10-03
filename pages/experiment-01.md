@@ -20,70 +20,68 @@ What happens when I replace unstructured, low-quality input (mostly social media
 I scroll social media and read any interesting articles I come across, which lately is happening less and less. I read books, but not regularly. I seek out information when I need it and immediately use it. Rather than being an information hoarder, I get caught in cognitive loops. I practically ruminate on knowledge.
 
 ## Intervention
-Limit social media to 20 minutes/day.
-Shift reading to:
-- Peer-reviewed articles
-- Curated newsletters & websites
-- Books of all types and genres
-- Thinking/learning communities (Ness Labs and Linking Your Thinking)
+- Limit social media to 20 minutes/day
+- Shift reading to:
+  - Peer-reviewed articles
+  - Curated newsletters & websites
+  - Books of all types and genres
+  - Thinking/learning communities
 
 ### Operational Definitions
-- Seed saved: Captured something, added the source, added why I saved it.
-- Seed planted: Began transformation by turning the seed into a new note with a link, or working the seed into an existing note.
-- Seed pruned: Information deleted.
+- **Seed saved**: Captured something, added the source, added why I saved it
+- **Seed planted**: Began transformation by turning the seed into a new note with a link, or working the seed into an existing note
+- **Seed pruned**: Information deleted
 
 ## Conclusion
 I'm officially ending the experiment at week 4. Tracking has become more burdensome than useful. I'm not sure if it's because I have so much reading for school right now, or because I've learned all I needed to learn from the experiment, but I had no meaningful data, nor any new insights in week 4. I learned a lot from this experiment, and changed my reading habits for the better in the process. I'm working on an official wrap-up that I should have finished in a week or two. Until then, you can see the raw data and field notes below.
-
-<!-- Add your weekly logs and field notes here as needed -->
 
 <details>
 <summary><strong>Weekly Log: Week 1</strong></summary>
 
 ### Daily Logs
 **Date: 2025-08-18**  
-Building: 3 hours  
-Created Random Knowledge Generator tool in PHP
+- Building: 3 hours  
+- Created Random Knowledge Generator tool in PHP
 
 **Date: 2025-08-19**  
-Reading: 60 minutes  
-Social media: 0/20 min  
-Content:  
-Blog Post - 0 Seeds Saved  
-Textbook Chapter - 3 Seeds Saved  
-Blog Post - 1 Seed Saved  
-Total Seeds Saved: 4
+- Reading: 60 minutes  
+- Social media: 0/20 min  
+- Content:  
+  - Blog Post - 0 Seeds Saved  
+  - Textbook Chapter - 3 Seeds Saved  
+  - Blog Post - 1 Seed Saved  
+- Total Seeds Saved: 4
 
 **Date: 2025-08-20**  
-Reading: 30 minutes  
-Social media: 20/20 min  
-Content:  
-Blog Post - 1 Seed Saved  
-Blog Post - 0 Seeds Saved  
-Blog Post - 1 Seed Saved  
-Total Seeds Saved: 2
+- Reading: 30 minutes  
+- Social media: 20/20 min  
+- Content:  
+  - Blog Post - 1 Seed Saved  
+  - Blog Post - 0 Seeds Saved  
+  - Blog Post - 1 Seed Saved  
+- Total Seeds Saved: 2
 
 **Date: 2025-08-21**  
-Reading: 30 minutes  
-Social media: 20/20 min  
-Content:  
-Blog Post - 1 Seed Saved  
-Journal Article - 2 Seeds Saved  
-Blog Post from Social Media - 0 Seeds Saved  
-Total Seeds Saved: 3
+- Reading: 30 minutes  
+- Social media: 20/20 min  
+- Content:  
+  - Blog Post - 1 Seed Saved  
+  - Journal Article - 2 Seeds Saved  
+  - Blog Post from Social Media - 0 Seeds Saved  
+- Total Seeds Saved: 3
 
 **Date: 2025-08-22**  
-Reading: 60 minutes  
-Social media: 10/20 min  
-Content:  
-Journal Article - 0 Seeds Saved  
-Blog Post - 1 Seed Saved  
-Blog Post - 0 Seeds Saved  
-Textbook Chapter - 2 Seeds Saved  
-Total Seeds Saved: 3
+- Reading: 60 minutes  
+- Social media: 10/20 min  
+- Content:  
+  - Journal Article - 0 Seeds Saved  
+  - Blog Post - 1 Seed Saved  
+  - Blog Post - 0 Seeds Saved  
+  - Textbook Chapter - 2 Seeds Saved  
+- Total Seeds Saved: 3
 
 **Dates: 2025-08-23 | 2025-08-24**  
-No tracking. Rest days.
+- No tracking. Rest days.
 
 #### Weekly Review
 - **13 Items Consumed**
@@ -126,33 +124,33 @@ This is the second time this week that I've been able to connect multiple readin
 
 ### Daily Logs
 **Date: 2025-08-25**  
-Content:  
-Everything I Know about Self-Publishing (Kevin Kelly) — Blog — 2 Seeds Saved  
-A Treatise on AI Chatbots Undermining the Enlightenment — Digital Garden Article — 3 Seeds Saved  
-Don’t delegate understanding — Blog Post — 1 Seed Saved  
-Dainton & Zelley (2022), Applying Communication Theory for Professional Life — Textbook — 0 Seeds Saved (deep-work; foundational)  
-Total Seeds Saved: 6
+- Content:  
+  - Everything I Know about Self-Publishing (Kevin Kelly) — Blog — 2 Seeds Saved  
+  - A Treatise on AI Chatbots Undermining the Enlightenment — Digital Garden Article — 3 Seeds Saved  
+  - Don’t delegate understanding — Blog Post — 1 Seed Saved  
+  - Dainton & Zelley (2022), Applying Communication Theory for Professional Life — Textbook — 0 Seeds Saved (deep-work; foundational)  
+- Total Seeds Saved: 6
 
 **Date: 2025-08-26**  
-Content:  
-A Public Academic — Newsletter — 2 Seeds Saved  
-Cromwell, Haase, & Vladova (2023), Personality and Individual Differences — Journal Article — 0 Seeds Saved (deep-work; foundational)  
-Total Seeds Saved: 2
+- Content:  
+  - A Public Academic — Newsletter — 2 Seeds Saved  
+  - Cromwell, Haase, & Vladova (2023), Personality and Individual Differences — Journal Article — 0 Seeds Saved (deep-work; foundational)  
+- Total Seeds Saved: 2
 
 **Date: 2025-08-27**  
-Content:  
-Why You Shouldn’t Take Notes on Papers or Lectures — Newsletter — 1 Seed Saved  
-Have You Ever Had That Feeling That You KNOW Something but Can’t Explain? (Bianca Pereira) — Newsletter — 1 Seed Saved  
-Torrance (1965), Daedalus — Journal Article — 0 Seeds Saved (deep-work; foundational)  
-Total Seeds Saved: 2
+- Content:  
+  - Why You Shouldn’t Take Notes on Papers or Lectures — Newsletter — 1 Seed Saved  
+  - Have You Ever Had That Feeling That You KNOW Something but Can’t Explain? (Bianca Pereira) — Newsletter — 1 Seed Saved  
+  - Torrance (1965), Daedalus — Journal Article — 0 Seeds Saved (deep-work; foundational)  
+- Total Seeds Saved: 2
 
 **Date: 2025-08-28**  
-Content:  
-What Is Charisma? — Newsletter — 2 Seeds Saved  
-Total Seeds Saved: 2
+- Content:  
+  - What Is Charisma? — Newsletter — 2 Seeds Saved  
+- Total Seeds Saved: 2
 
 **Dates: 2025-08-29 – 2025-08-31**  
-No tracking. Rest/health days (autoimmune flare starting 08/28).
+- No tracking. Rest/health days (autoimmune flare starting 08/28).
 
 #### Weekly Review
 - **10 Items Consumed**
@@ -192,24 +190,21 @@ Autoimmune flare-up began, limiting my cognitive capacity for remainder of week.
 
 ### Daily Logs
 **Dates: 2025-09-01 – 2025-09-04**  
-Content:  
-Dainton & Zelley (2022), Applying Communication Theory for Professional Life (Chapters 3 & 5) — Textbook — 0 Seeds Saved (deep-work; foundational)  
-Coursework: Cognitive and Cultural Communication Theories — Academic Articles — 0 Seeds Saved (deep-work; foundational)  
-Total Seeds Saved: 0
-
-Sprouts Planted: 11
-
-Evergreens Grown: 1 (Theory application in educational setting)
-
-Communication Theory Map of Content Created
+- Content:  
+  - Dainton & Zelley (2022), Applying Communication Theory for Professional Life (Chapters 3 & 5) — Textbook — 0 Seeds Saved (deep-work; foundational)  
+  - Coursework: Cognitive and Cultural Communication Theories — Academic Articles — 0 Seeds Saved (deep-work; foundational)  
+- Total Seeds Saved: 0
+- Sprouts Planted: 11
+- Evergreens Grown: 1 (Theory application in educational setting)
+- Communication Theory Map of Content Created
 
 **Date: 2025-09-05**  
-Content:  
-Museum of Color — Essay — 0 Seeds Saved (soul-reading)  
-Total Seeds Saved: 0
+- Content:  
+  - Museum of Color — Essay — 0 Seeds Saved (soul-reading)  
+- Total Seeds Saved: 0
 
 **Dates: 2025-09-06 – 2025-09-07**  
-Rest Days
+- Rest Days
 
 #### Weekly Review
 - **12 Items Consumed**
@@ -219,20 +214,20 @@ Rest Days
 
 **Experiment Evolution - New Reading Taxonomy**
 Discovered Reading Types:
-- Seed-Reading: Newsletters and blog posts where I may be quickly introduced to a new concept. I create a seed so I can come back to it and learn more about it.
-- Deep-Reading: Academic, informative non-fiction. Information is immediately processed into new notes or existing evergreen notes.
-- Serendipitous Reading: Falling down rabbit holes (I only track the source of the fall).
-- Relaxing Reading: Fiction & pulp. For me, horror, dystopia, fantasy, auto-bios of extreme and complex people.
-- Soul Reading: Art, poetry, writing from people I deeply resonate with. Very often unexpected surprises from any form.
+- **Seed-Reading**: Newsletters and blog posts where I may be quickly introduced to a new concept. I create a seed so I can come back to it and learn more about it
+- **Deep-Reading**: Academic, informative non-fiction. Information is immediately processed into new notes or existing evergreen notes
+- **Serendipitous Reading**: Falling down rabbit holes (I only track the source of the fall)
+- **Relaxing Reading**: Fiction & pulp. For me, horror, dystopia, fantasy, auto-bios of extreme and complex people
+- **Sunshine Reading**: Art, poetry, writing from people I deeply resonate with. Very often unexpected surprises from any form.
 
 **Updated Tracking (Starting Week 4):**
 - Total seeds saved weekly with source type
-- Total sprouts planted weekly with source type
+- Total sprouts planted weekly with source type  
 - Total evergreens grown weekly with source type
 - Connections made this week
-- Relaxing Reading: What and duration
-- Soul Reading: What it was and how it fed me
-- Rabbit Hole: What caused the fall & topic
+- **Relaxing Reading**: What and duration
+- **Soul Reading**: What it was and how it fed me
+- **Rabbit Hole**: What caused the fall & topic
 
 #### Field Notes
 It's 1am, Friday morning, and the last day of reading for week 3 of my planned 8 week experiment. Course reading and work took the entire week, and sitting here in the quiet of the witching hour, my favorite time for personal relaxation, is the first time I've had to read something just for myself all week.

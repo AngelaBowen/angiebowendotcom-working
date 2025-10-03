@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("js");
+  eleventyConfig.addPassthroughCopy("favicon.png");
 
   eleventyConfig.addNunjucksFilter("date", function(dateObj, format = "MMM dd, yyyy") {
     return DateTime.fromJSDate(new Date(dateObj)).toFormat(format);

@@ -10,6 +10,8 @@
 ## Roadmap
 - [x] IndieWeb integration (webmentions, RSS, IndieAuth)
 - [x] Basic site layout and templates
-- [ ] Implement unobtrusive icon set
+- [x] Unicode icons
 - [ ] Finish initial content and posts
+- [x] Implement dark mode / light mode toggle
 - [ ] Double check accessibility
+- [ ] Check for broken links

@@ -1,0 +1,26 @@
+body {
+	background: var(--day);
+	color: var(--night);
+  }
+
+a {
+	 color: var(--text-dark);
+ }
+
+ .theme-toggle {
+  color: var(--text-dark)
+}
+
+  .quote-container {
+	border-bottom: var(--night) dashed 1px;
+	border-top: var(--night) dashed 1px;
+}
+
+.post-meta {
+	color: var(--night);
+}
+
+.status-seed::before { color: var(--text-dark); }
+.status-growing::before { color: var(--text-dark); }
+.status-evergreen::before { color: var(--text-dark); }
+.status-perennial::before { color: var(--text-dark); }

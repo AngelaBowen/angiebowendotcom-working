@@ -1,14 +1,14 @@
 {% extends "layout.njk" %}
 
 {% block content %}
-<main class="h-entry">
+<article class="h-entry">
   <h1 class="p-name">{{ title }}</h1>
   <div class="post-meta">
-    {% if date %}
+    {% if status %}
       <span>{{ status | safe }}</span>
     {% endif %}
-    {% if lastUpdated %}
-      <span>planted on <time class="dt-published" datetime="{{ date | dateToYMD }}">{{ date | date('MMM dd, yyyy') }}</time>,</span>
+    {% if date %}
+      <span>planted on <time class="dt-published" datetime="{{ date | dateToYMD }}">{{ date | date('MMM dd, yyyy') }}</time>{% if lastUpdated %},{% else %}.{% endif %}</span>
     {% endif %}
     {% if lastUpdated %}
       <span>and last tended to on <time class="dt-updated" datetime="{{ lastUpdated | dateToYMD }}">{{ lastUpdated | date('MMM dd, yyyy') }}</time>.</span>
@@ -17,5 +17,5 @@
   <div class="e-content">
     {{ content | safe }}
   </div>
-</main>
+</article>
 {% endblock %}

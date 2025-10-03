@@ -3,27 +3,28 @@ title: Now
 layout: page.njk
 permalink: /now/
 date: 2025-09-01
-lastUpdated: 2025-09-22
+lastUpdated: 2025-10-03
 status: <span class="status-perennial">Perennial</span>
 tags: about
 author: Angie Bowen
 ---
 
-What I'm focused on right <a href="https://nownownow.com/about">now</a>. Updated monthly(ish).
+My life right <a href="https://nownownow.com/about">now</a>. Updated monthly(ish).
 
 ## General Info
 
-- **Age**: 49
+- **Age**: 48
 - **Location**: Colorado Springs, CO
 - **Current Obsession**: Digital Gardens, the IndieWeb, and other <a href="https://niceinter.net/">niceinternet</a> stuff
-- **Semester 1**: Problem solving through theory & research
-- **Website**: Rebuilding with 11ty, hand-coded HTML & CSS
-- **Writing**: Rediscovering my authentic voice
+- **Website**: Rebuilding with 11ty, hand-coding in HTML, CSS, and minimal JS. See the <a href="/colophon/">colophon</a> for more info about the site.
+- **Writing**: Rediscovering my authentic voice after decades of online marketing writing.
+- **Hobbies**: Reading, painting, art, journaling
+
+## Academic Info
+
+- I graduated from the University of Colorado Colorado Springs with my B.A. in psychology in 2020.
+- I'm currently pursuing a M.A. in communication at the University of Colorado Colorado Springs.
 
 ## Capstone Project
 
-I'm developing a course for first-year undergraduates on generative note-making. The first semester is theory focused. While we're doing work choosing the theoretical foundations we want to work with, they're evaluating our choices and matching up students with advisors. So I'll be able to share more specifics about my project when I'm assigned an advisor.
-
-## Current Personal (n=1) Experiment
-
-<a href="/posts/experiment-02">Experiment 02</a>: Add to a random note in my digital garden every day for 30 days. (Started Aug 18, 2025)
+I started my master's program in August (2025). The first semester foundational, focused on problem solving through theory & research. We're meant to take this time to choose the direction we want to go in, and reach out to potential advisors to find a good match. I'll be able to share more specifics about my project once I've officially met with my advisor.

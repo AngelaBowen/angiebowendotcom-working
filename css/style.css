@@ -1,15 +1,10 @@
 :root {
-  --pink-norm: #ff8ac4;
-  --lav-norm: #c9a9ff;
-  --blue-norm: #b8e6ff;
-  --lav: #e8d5ff;
-  --pink: #ffd6f5;
-  --blue: #b8e6ff;
-  --pink-dark: #cc2f80;
-  --lav-dark: #5e3ca8;
-  --blue-dark: #006699;
+  --night: #353845;
+  --day: #fffbf5;
+  --text-dark:#c9137d;
+  --text-light:#ffbdc3;
 }
-
+	
 /* Font Face Declarations */
 @font-face {
 	font-family: 'Playfair Display';
@@ -69,6 +64,56 @@ src: url('/fonts/Playfair_Display/PlayfairDisplay-Italic.ttf') format('truetype'
 }
 
 
+@media (prefers-color-scheme: dark) {
+body {
+	background: var(--night);
+	color: var(--day);
+}
+a {
+	 color: var(--text-light);
+ }
+  .theme-toggle {
+  color: var(--text-light)
+}
+.quote-container {
+	border-bottom: var(--day) dashed 1px;
+	border-top: var(--day) dashed 1px;
+}
+
+.post-meta {
+	color: var(--day);
+}
+.status-seed::before { color: var(--text-light); }
+.status-growing::before { color: var(--text-light); }
+.status-evergreen::before { color: var(--text-light); }
+.status-perennial::before { color: var(--text-light); }
+}
+
+@media (prefers-color-scheme: light) {
+body {
+	background: var(--day);
+	color: var(--night);
+  }
+a {
+	 color: var(--text-dark);
+ }
+ .theme-toggle {
+  color: var(--text-dark)
+}
+  .quote-container {
+	border-bottom: var(--night) dashed 1px;
+	border-top: var(--night) dashed 1px;
+}
+
+.post-meta {
+	color: var(--night);
+}
+.status-seed::before { color: var(--text-dark); }
+.status-growing::before { color: var(--text-dark); }
+.status-evergreen::before { color: var(--text-dark); }
+.status-perennial::before { color: var(--text-dark); }
+}
+
 
 /* Global Styles */
 
@@ -76,9 +121,15 @@ html {
 	  font-size: 20px;
 }	
 
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+	font-weight: 400;
+	line-height: 2rem;
+}
 
  a {
-	 color: var(--pink-dark);
 	 text-decoration: underline;
 	 font-weight: 600;
  }
@@ -119,7 +170,7 @@ ul {
 }
 
 .container {
-	max-width: 900px;
+	max-width: 800px;
 	margin: 40px auto;
 	padding: 0 1rem;
 }
@@ -159,10 +210,7 @@ h4, h5, h6 {
 	font-family: 'Playfair Display', 'Times New Roman', Times, Georgia, serif;
 	font-style: italic;
 	font-size: 1.3rem;
-	border-bottom: #222 dashed 1px;
-	padding: 20px;
-	border-top: #222 dashed 1px;
-	margin: 50px 30px 50px 30px;
+	margin: 30px 0px;
 	line-height: 2.5rem;
 }
 
@@ -209,7 +257,6 @@ code.comment, pre.comment {
   line-height: 1;
   padding: 0;
   margin: 0;
-  color: var(--pink-dark)
 }
 
 .theme-toggle::before {
@@ -232,7 +279,6 @@ code.comment, pre.comment {
 .post-meta {
 	font-size: 0.8rem;
 	margin-bottom: 40px;
-	color: #555;
 }
 
 .leaf-list {
