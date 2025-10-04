@@ -1,6 +1,8 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { DateTime } = require("luxon");
 
+const pluginSitemap = require("@quasibit/eleventy-plugin-sitemap");
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPlugin(pluginRss);
@@ -16,5 +18,10 @@ module.exports = function(eleventyConfig) {
     const d = new Date(date);
     return d.toISOString().split('T')[0];
   });
-  
+
+  eleventyConfig.addPlugin(pluginSitemap, {
+    sitemap: {
+      hostname: "https://angiebowen.com",
+    },
+  });
 };

@@ -2,7 +2,7 @@
 title: About Angie Bowen
 layout: page.njk
 permalink: /about/
-date: 2025-09-01
+date: 2025-09-22
 lastUpdated: 2025-09-22
 status: <span class="status-perennial">Perennial</span>
 author: Angie Bowen

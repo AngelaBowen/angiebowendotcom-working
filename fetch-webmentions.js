@@ -5,7 +5,8 @@ const https = require('https');
 
 const DOMAIN = 'angiebowen.com';
 const OUTPUT_PATH = path.join(__dirname, 'data', 'webmentions.json');
-const API_URL = `https://webmention.io/api/mentions.jf2?domain=${DOMAIN}`;
+const TOKEN = 'Tyl2_EPOwiC0uThBvajGIg';
+const API_URL = `https://webmention.io/api/mentions.jf2?token=${TOKEN}`;
 
 https.get(API_URL, (res) => {
   let data = '';

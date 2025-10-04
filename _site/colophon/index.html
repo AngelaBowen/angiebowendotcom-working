@@ -13,17 +13,20 @@
     <link id="theme-link" rel="stylesheet" href="/css/light.css">
     <link rel="webmention" href="https://webmention.io/angiebowen.com/webmention" />
     <link rel="pingback" href="https://webmention.io/angiebowen.com/xmlrpc" />
-    <link rel="me" href="https://github.com/angelabowen">
-    <link rel="me" href="https://indieweb.social/@angiebowen">
     <link rel="authorization_endpoint" href="https://indieauth.com/auth">
     <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+    <meta property="og:image" content="/og-image.png" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:title" content="Angie Bowen" />
+		<meta property="og:description" content="Grad Student, Mind Gardener, Digital Autonomy Advocate" />
   </head>
   <body>
     <div class="container">
     <header class="navbar">
-        <a class="logo" href="/">&amp;</a>
-        <nav class="nav-container">
+        <a class="logo" aria-label="Home" href="/">&amp;</a>
+        <nav class="nav-container" aria-label="Main navigation">
             <ul class="nav-menu">
                 <li><a href="/">HOME</a></li>
             <li><a href="/about">ABOUT</a></li>
@@ -50,32 +53,47 @@
   </div>
   <div class="e-content">
     <h2>Site Purpose:</h2>
-<p>I started this site to build my master's capstone in public. Then <a href="/experiment-01">my first personal experiment</a> sent me down a rabbit hole of digital gardens, the indieweb, the handmade web, and any other cozy corner of the internet I could find that felt like the 90s web I so loved.</p>
+<p>I started this site to build my master's capstone in public. Then <a href="/experiment-01">my first personal experiment</a> sent me down a rabbit hole of digital gardens, the indieweb, the handmade web, and any other corner of the cozy internet I could find that felt like the 90s web I so loved.</p>
 <p>Now it's my digital garden, where I learn and create in public.</p>
 <h2>Tech Stack:</h2>
 <ul>
-<li>Written in <a href="https://obsidian.md/">Obsidian</a></li>
-<li>Coded in <a href="https://code.visualstudio.com/">VS Code</a></li>
-<li>Built with <a href="https://www.11ty.dev/">11ty</a></li>
-<li>Hand-coded HTML and CSS with minimal JS</li>
+<li>Written in <a href="https://obsidian.md/">Obsidian</a> (where the majority of my work happens) using markdown</li>
+<li>Theme hand-coded HTML and CSS in <a href="https://code.visualstudio.com/">VS Code</a></li>
+<li>Static site generated with <a href="https://www.11ty.dev/">11ty</a></li>
+<li>Minimal JS (mostly pulled from Stack Overflow as I have yet to learn JavaScript)</li>
+<li>Site hosted on Dreamhost</li>
 </ul>
 <h2>Design Principles:</h2>
 <ul>
 <li>No tracking (no Google Analytics, no cookies, no scripts)</li>
 <li>No ads, sponsored posts, or affiliate links</li>
-<li>Prioritize readability and accessibility</li>
-<li>Fast-loading and lightweight</li>
-<li>My logo is an ampersand (&amp;) because it's a symbol of connections, which gets to the heart of my work.</li>
+<li>Keep it fast-loading and lightweight</li>
+<li>My site is represented by an ampersand (&amp;), a symbol of connections, which gets to the heart of my work.</li>
+</ul>
+<h2>Accessibility:</h2>
+<ul>
+<li>My goal is to use only text and Unicode for site theming, avoiding images for pure aesthetics.</li>
+<li>JavaScript will never be required to read or use the site.</li>
+<li>Readability and accessibility are always my top priorities.</li>
 </ul>
 <h2>Fonts:</h2>
 <ul>
+<li>All fonts are self-hosted on this domain for privacy and performance. No external font services are used.</li>
 <li><a href="https://beautifulwebtype.com/playfair-display/">Playfair Display</a></li>
 <li><a href="https://www.fontshare.com/fonts/beVietnam-pro">Be Vietnam Pro</a></li>
 </ul>
 <h2>Contact &amp; Attribution:</h2>
 <ul>
 <li>All writing and code by Angie Bowen</li>
-<li>If you find any bugs or errors (or would like to reach out for any other reason), please let me know at <a href="mailto:angie@angiebowen.com">angie@angiebowen.com</a>.</li>
+<li>If you find any bugs or errors (or would like to reach out for any other reason), please <a href="mailto:angie@angiebowen.com">Contact me</a>.</li>
+</ul>
+<h2>License</h2>
+<p>Content on this site is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+<h2>Webmention feeds:</h2>
+<ul>
+<li><a href="/feed.xml">Site RSS Feed</a></li>
+<li><a href="https://webmention.io/api/mentions.html?token=Tyl2_EPOwiC0uThBvajGIg" rel="nofollow">Webmentions (HTML feed)</a></li>
+<li><a href="https://webmention.io/api/mentions.atom?token=Tyl2_EPOwiC0uThBvajGIg" rel="nofollow">Webmentions (Atom feed)</a></li>
 </ul>
 
   </div>
@@ -96,7 +114,7 @@
             </ul>
         </nav>
         <div class="footer-info">
-            Contact me: <a href="mailto:angie@angiebowen.com" rel="me" class="obfuscated-email">angie@angiebowen.com</a>.
+            <a href="mailto:angie@angiebowen.com">angie@angiebowen.com</a>
         </div>
     </div>
 </footer>

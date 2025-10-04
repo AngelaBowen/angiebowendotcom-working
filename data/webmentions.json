@@ -1,1 +1,1 @@
-{"error":"invalid_input","error_description":"Either a token or a target URL is required"}
+{"type":"feed","name":"Webmentions","children":[{"type":"entry","author":{"type":"card","name":"","photo":"","url":""},"url":"https://angiebowen.com/","published":null,"wm-received":"2025-10-04T07:21:32Z","wm-id":1944612,"wm-source":"https://angiebowen.com","wm-target":"https://angiebowen.com/","wm-protocol":"webmention","name":"Angie Bowen is creating things.","mention-of":"https://angiebowen.com/","wm-property":"mention-of","wm-private":false}]}

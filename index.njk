@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Angie Bowen's digital garden exploring generative note-making, creativity, and digital literacy. A mind garden of interconnected ideas and experiments.">
+		<meta name="description" content="Angie Bowen's digital garden where she writes about generative note-making, learning and cognition, digital autonomy, and digital literacy.">
 		<meta name="author" content="Angie Bowen">
 		<title>Angie Bowen's Digital Garden</title>
 		<link rel="icon" type="image/png" href="/favicon.png">
@@ -13,11 +13,14 @@
 		<link id="theme-link" rel="stylesheet" href="/css/light.css">
 		<link rel="webmention" href="https://webmention.io/angiebowen.com/webmention" />
 		<link rel="pingback" href="https://webmention.io/angiebowen.com/xmlrpc" />
-		<link rel="me" href="https://github.com/angelabowen">
-		<link rel="me" href="https://indieweb.social/@angiebowen">
 		<link rel="authorization_endpoint" href="https://indieauth.com/auth">
 		<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
 		<link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+		<meta property="og:image" content="/og-image.png" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:title" content="Angie Bowen" />
+		<meta property="og:description" content="Grad Student, Mind Gardener, Digital Autonomy Advocate" />
 	</head>
 	<body>
 		{% include "header.html" %}
@@ -39,9 +42,9 @@
 
 <h2>Current Notes</h2>
 <p>My tiny garden is just getting started. <a href="/feed.xml">Subscribe to the RSS feed</a> to stay updated.</p>
-<ul class="notes-list">
+<ul>
   {% for note in collections.notes | reverse %}
-	<li class="note-item">
+	<li>
 	  <a class="note-link" href="{{ note.url }}">{{ note.data.title }}</a>
 	</li>
   {% endfor %}

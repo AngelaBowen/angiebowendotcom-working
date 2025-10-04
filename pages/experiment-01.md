@@ -2,7 +2,7 @@
 title: Experiment 01 - Consume Higher Quality Content
 layout: page.njk
 date: 2025-09-13
-lastUpdated: 2025-09-22
+lastUpdated: 2025-09-13
 status: '<span class="status-completed">Completed</span>'
 permalink: /experiment-01/
 tags: notes
